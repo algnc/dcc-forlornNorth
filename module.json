@@ -1,0 +1,49 @@
+{
+   "name": "dcc-forlornNorth",   
+   "title": "Forlorn North Hex Crawl",
+   "description": "Hex Crawl for friends during quarantine",   
+   "author": "Christian Ovsenik",
+   "version": "1.01",
+   "minimumCoreVersion": "0.5.0",
+   "compatibleCoreVersion":"0.7.0",
+   "url": "",
+   "download": "",
+   "manifest": "",
+   "packs": [
+     {
+	"name": "dcc-north-monsters",
+	"label": "The Forlorn North Monsters",
+	"path": "packs/dcc-north-monsters.db",
+	"entity": "Actor",
+	"module": "dcc-forlornNorth"
+     },
+     {
+	"name": "dcc-north-magic-items",
+	"label": "The Forlorn North Magic Items",
+	"path": "packs/dcc-north-magic-items.db",
+	"entity": "Item",
+	"module": "dcc-forlornNorth"
+     },
+     {
+        "name": "dcc-north-scenes",
+        "label": "The Forlorn North Scenes",
+        "path": "packs/dcc-north-scenes.db",
+	"entity": "Scene",
+	"module": "dcc-forlornNorth"
+     },
+     {
+	"name": "dcc-north-handouts",
+	"label": "The Forlorn North Handouts",
+	"path": "packs/dcc-north-handouts.db",
+	"entity": "JournalEntry",
+	"module": "dcc-forlornNorth"
+     },
+     {
+	"name": "dcc-north-playlists",
+	"label": "The Forlorn North Playlists",
+	"path": "packs/dcc-north-playlists.db",
+	"entity": "Playlist",
+	"module": "dcc-forlornNorth"
+     }
+   ]	
+}
